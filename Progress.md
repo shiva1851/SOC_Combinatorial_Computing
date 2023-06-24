@@ -6,9 +6,9 @@ As assignments, we solved Ferrer diagram Problem, partition of sets problem and 
 Week-2:
 **P and NP completeness problem**
 P - Polynomial Time Solvable problem
-  Why polyno mial time?
-If a procedure is ef ficient, running it ' n' times is also efficient.
-If I double the input size, time complexity gets multiplied by a constant, thus not affecting the asymptotic time complexity.
+  Why polynomial time?
+If a procedure is ef ficient, running it ' n' times is also efficient.
+If I double the input size, time complexity gets multiplied by a constant, thus not affecting the asymptotic time complexity.
 Any problem in P is also in NP.
 **Easily Verifiable Proofs**
 _**"Many problems which seemed hard have easily verifiable proofs for yes inputs."**_
@@ -22,7 +22,7 @@ An NP - complete problem is a decision problem that is both in NP and NP - hard.
 NP-complete problems are often very difficult to solve, and there is no known polynomial - time algorithm for any of them.
 
 Week-3:
-We will study about SAT solving.
+We studied about SAT solving. SAT problems are generally NP problems which have certains conditions that they satisfy. For solving SAT problems, we use z3 library in python. First of all, we add a _Solver_ in our algorithm. Then we add all the constrainsts that our solution must adhere, into the solver. Now, for solving, first we check whether it is a SAT satisfiability problem or not. If yes, we introduce a model to our solver and add the objective of our solution.
 
 Week-4:
 As PDF in folder
